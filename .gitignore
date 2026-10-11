@@ -26,8 +26,9 @@
 .env.test
 .env.production
 
-# Temporary & extracted asset source folders
-ezgif-*
+# Temporary extracted source folder (root only)
+/ezgif-*/
+!public/hero-frames/**
 
 # OS files
 .DS_Store
